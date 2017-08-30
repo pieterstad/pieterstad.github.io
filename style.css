@@ -1,0 +1,76 @@
+html, body {
+
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    background-image: url('pieterstad.jpg');
+	background-size: auto;
+}
+/*
+* {
+    border: 1px solid slategray;
+}
+*/
+#plaatje1 {
+    vertical-align: top;
+}
+
+div.header {
+    z-index: 1;
+    background-color: #474747;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 800px;
+    position: center;
+    text-align: center;
+    align-items: center;
+}
+
+div.body {
+    z-index: 1;
+    margin-top: 20px;
+    width: 100%;
+    height: 1200px;
+
+    background-color: #474747;
+    text-align: center;
+}
+
+#plaatje1 {
+    padding-top: 10px;
+}
+h1 {
+    position: relative;
+    top: -48px;
+    line-height: 70px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    font-family: Rounded Elegance, sans-serif;
+    font-size: 70px;
+}
+
+h2 {
+    position: relative;
+    color: white;
+    top: -96px;
+    line-height: 30px;
+    vertical-align: top;
+    text-align: center;
+    font-family: Rounded Elegance, sans-serif;
+    font-size: 30px;
+}
+
+.waarom {
+    color: white;
+    font-family: Rounded Elegance, sans-serif;
+    font-size: 50px;
+    position: relative;
+}
+@font-face {
+     font-family: Rounded Elegance;
+     src: url('Rounded_Elegance.ttf'); 
+}

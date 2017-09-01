@@ -17,25 +17,13 @@ html {
     vertical-align: top;
 }
 
-div.header {
-    z-index: 1;
-    background-color: white;
-    margin-right: auto;
-    margin-left: auto;
-    height: 200px;
-    width: 800px;
-    position: center;
-    text-align: center;
-    align-items: center;
-}
-
 div.body {
     z-index: 1;
     margin-top: 20px;
     width: 100%;
     height: 1200px;
-
-    background-color: black;
+	text-color: white;
+    background-color: white;
     text-align: center;
 }
 
